@@ -1,0 +1,105 @@
+
+a{
+	display:block;
+	
+}
+
+.edittext {
+	margin: -0.5px;
+	
+	
+}
+
+.txt_fail {
+	color:#F00;
+	text-align:center;
+	
+}
+.img_art {
+	width:250px;
+	margin: 15px;	
+}
+
+.img_list_available {
+	height:126px;
+	width:446px;
+	border-radius: 12px !important;
+	border:solid 3px #390 !important; 
+}
+
+
+.img_list_occupied {
+	height:126px;
+	width:446px;
+	border-radius: 12px !important;
+	border:solid 3px #F00 !important; 
+}
+
+
+.img_list_fail {
+	height:126px;
+	width:446px;
+	border-radius: 12px !important;
+	border:solid 3px #FC0 !important; 
+}
+
+.frm_btn_cal {
+	
+	height:30px;
+	width:30px;
+	overflow:hidden;
+	float:left;
+	margin: 5px;
+}
+
+.frm_btn_cal img {
+	
+	height:30px;
+	width:60px;
+	position:relative;
+	right:0px;
+}
+
+.frm_btn_cal img:hover {
+	position:relative;
+	right:29.5px;
+}
+
+.frm_btn {
+	height:130px;
+	width:150px;
+	overflow:hidden;
+	float:left;
+	margin-left:270px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.frm_btn img {
+	position:relative;
+	right:0px;
+}
+
+.frm_btn img:hover {
+	position:relative;
+	right:150px;
+}
+
+.frm_btn img:active {
+	position:relative;
+	right:300px;
+}
+
+#popupPanel-popup {
+    right: 0 !important;
+    left: auto !important;
+}
+#popupPanel {
+    width: 200px;
+    border: 1px solid #000;
+    border-right: none;
+    background: rgba(0,0,0,.5);
+    margin: -1px 0;
+}
+#popupPanel .ui-btn {
+    margin: 2em 15px;
+}
